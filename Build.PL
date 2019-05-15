@@ -8,8 +8,14 @@ my $builder = Module::Build->new(
     dist_author       => 'Ivan Wills <ivan.wills@gmail.com>',
     dist_version_from => 'lib/App-Bamboo-Cli.pm',
     requires          => {
-        'perl'        => 5.008,
-        'Net::Bamboo' => 0,
+        'perl'           => 5.008,
+        'Getopt::Alt'    => 0,
+        'List::Util'     => 0,
+        'Moo'            => 0,
+        'Net::Bamboo'    => 0,
+        'Path::Tiny'     => 0,
+        'Scalar::Util'   => 0,
+        'version'        => 0,
     },
     build_requires => {
         'Test::More'     => 0,
