@@ -27,7 +27,7 @@ my %option = (
     VERSION => 0,
 );
 
-exit App::BambooCli::start();
+exit App::BambooCli->new->start();
 
 __DATA__
 
