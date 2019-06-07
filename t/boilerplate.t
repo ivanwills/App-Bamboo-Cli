@@ -46,7 +46,7 @@ sub module_boilerplate_ok {
 }
 
 subtest 'README' => sub {
-    not_in_file_ok((-f 'README' ? 'README' : 'README.pod') =>
+    not_in_file_ok((-f 'README' ? 'README' : 'README.md') =>
         "The README is used..."       => qr/The README is used/,
         "'version information here'"  => qr/to provide version information/,
     );
@@ -59,5 +59,5 @@ subtest 'Changes' => sub {
 };
 
 module_boilerplate_ok('bin/bamboo');
-module_boilerplate_ok('lib/App::BambooCli.pm');
+module_boilerplate_ok('lib/App/BambooCli.pm');
 done_testing();
