@@ -53,7 +53,7 @@ __END__
 
 =head1 NAME
 
-App::BambooCli::Command::Plans - <One-line description of module's purpose>
+App::BambooCli::Command::Plans - Command to display the information about a single plan
 
 =head1 VERSION
 

@@ -51,7 +51,7 @@ __END__
 
 =head1 NAME
 
-App::BambooCli::Command::Projects - <One-line description of module's purpose>
+App::BambooCli::Command::Projects - Command to display the list of projects available on the bamboo server
 
 =head1 VERSION
 
