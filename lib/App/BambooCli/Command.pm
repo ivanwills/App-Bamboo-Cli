@@ -32,7 +32,7 @@ has bamboo => (
 sub get_sub_options {
     my ($self) = @_;
     my $module = ref $self;
-    my $options = eval "\$${module}::OPTIONS";
+    my $options = eval "\$${module}::OPTIONS"; ## no critic
 
     my $opt = get_options(@$options);
     $self->defaults({ %{ $self->defaults }, %{ $opt } });
