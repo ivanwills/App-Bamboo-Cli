@@ -44,7 +44,7 @@ sub run {
         $max{builds} = length $project->builds if $max{builds} < length $project->builds;
     }
     for my $project (@plans) {
-        printf "%-$max{key}s %-$max{name}s (%$max{builds}d) %s\n", $project->key, $project->name, $project->builds, $project->link;
+        printf "%-$max{key}s %-$max{name}s (%$max{builds}d) %s\n", $project->key, $project->name, $project->builds, $project->link || '';
     }
 }
 
