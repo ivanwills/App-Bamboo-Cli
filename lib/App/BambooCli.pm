@@ -198,6 +198,18 @@ This documentation refers to App::BambooCli version 0.0.1
 
 =head1 SUBROUTINES/METHODS
 
+=head2 C<sub_commands>
+
+=head2 C<config>
+
+=head2 C<start>
+
+=head2 C<load_subcommand>
+
+=head2 C<_sub_commands>
+
+=head2 C<_generate_sub_command>
+
 =head1 DIAGNOSTICS
 
 =head1 CONFIGURATION AND ENVIRONMENT

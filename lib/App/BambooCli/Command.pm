@@ -72,6 +72,16 @@ This documentation refers to App::BambooCli::Command version 0.0.1
 
 =head1 SUBROUTINES/METHODS
 
+=head2 C<defaults>
+
+=head2 C<options>
+
+=head2 C<bamboo>
+
+=head2 C<get_sub_options ()>
+
+=head2 C<auto_complete ()>
+
 =head1 DIAGNOSTICS
 
 =head1 CONFIGURATION AND ENVIRONMENT

@@ -65,10 +65,13 @@ This documentation refers to App::BambooCli::Command::Projects version 0.0.1
    # This section will be as far as many users bother reading, so make it as
    # educational and exemplary as possible.
 
-
 =head1 DESCRIPTION
 
 =head1 SUBROUTINES/METHODS
+
+=head2 C<details_sub>
+
+=head2 C<run ()>
 
 =head1 DIAGNOSTICS
 

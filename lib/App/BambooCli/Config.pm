@@ -74,6 +74,20 @@ This documentation refers to App::BambooCli::Config version 0.0.1
 
 =head1 SUBROUTINES/METHODS
 
+=head2 C<name>
+
+=head2 C<bamboo>
+
+=head2 C<hostname>
+
+=head2 C<username>
+
+=head2 C<password>
+
+=head2 C<debug>
+
+=head2 C<_bamboo>
+
 =head1 DIAGNOSTICS
 
 =head1 CONFIGURATION AND ENVIRONMENT
