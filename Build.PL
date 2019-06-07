@@ -3,10 +3,10 @@ use warnings;
 use Module::Build;
 
 my $builder = Module::Build->new(
-    module_name       => 'App-Bamboo-Cli',
+    module_name       => 'App-BambooCli',
     license           => 'perl',
     dist_author       => 'Ivan Wills <ivan.wills@gmail.com>',
-    dist_version_from => 'lib/App-Bamboo-Cli.pm',
+    dist_version_from => 'lib/App/BambooCli.pm',
     requires          => {
         'perl'              => 5.008,
         'Getopt::Alt'       => 0,
@@ -26,7 +26,7 @@ my $builder = Module::Build->new(
         'Test::More'     => 0,
         'Test::Warnings' => 0,
     },
-    add_to_cleanup     => [ 'App-Bamboo-Cli-*' ],
+    add_to_cleanup     => [ 'App-BambooCli-*' ],
     create_license     => 1,
     meta_merge => {
         resources => {

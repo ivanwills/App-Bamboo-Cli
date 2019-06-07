@@ -2,7 +2,7 @@
 [![Build Status](https://travis-ci.org/ivanwills/App-Bamboo-Cli.svg?branch=master)](https://travis-ci.org/ivanwills/App-Bamboo-Cli?branch=master)
 [![Coverage Status](https://coveralls.io/repos/ivanwills/App-Bamboo-Cli/badge.svg?branch=master)](https://coveralls.io/r/ivanwills/App-Bamboo-Cli?branch=master)
 
-App-Bamboo-Cli
+App-BambooCli
 =============
 
 The README is used to introduce the module and provide instructions on
@@ -32,21 +32,21 @@ SUPPORT AND DOCUMENTATION
 After installing, you can find documentation for this module with the
 perldoc command.
 
-    perldoc App-Bamboo-Cli
+    perldoc App::BambooCli
 
 You can also look for information at:
 
     RT, CPAN's request tracker
-        http://rt.cpan.org/NoAuth/Bugs.html?Dist=App-Bamboo-Cli
+        http://rt.cpan.org/NoAuth/Bugs.html?Dist=App-BambooCli
 
     AnnoCPAN, Annotated CPAN documentation
-        http://annocpan.org/dist/App-Bamboo-Cli
+        http://annocpan.org/dist/App-BambooCli
 
     CPAN Ratings
-        http://cpanratings.perl.org/d/App-Bamboo-Cli
+        http://cpanratings.perl.org/d/App-BambooCli
 
     Search CPAN
-        http://search.cpan.org/dist/App-Bamboo-Cli/
+        http://search.cpan.org/dist/App-BambooCli/
 
     Source Code
         git://github.com/ivanwills/App-Bamboo-Cli.git

@@ -33,15 +33,15 @@ __DATA__
 
 =head1 NAME
 
-App-Bamboo-Cli/bin/bamboo - <One-line description of commands purpose>
+bamboo - <One-line description of commands purpose>
 
 =head1 VERSION
 
-This documentation refers to App-Bamboo-Cli version 0.0.1
+This documentation refers to bamboo version 0.0.1
 
 =head1 SYNOPSIS
 
-   App-Bamboo-Cli [option]
+   bamboo [option]
 
  OPTIONS:
   -o --other         other option
@@ -49,7 +49,7 @@ This documentation refers to App-Bamboo-Cli version 0.0.1
   -v --verbose       Show more detailed option
      --version       Prints the version information
      --help          Prints this help information
-     --man           Prints the full documentation for App-Bamboo-Cli
+     --man           Prints the full documentation for bamboo
 
 =head1 DESCRIPTION
 

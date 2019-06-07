@@ -59,5 +59,5 @@ subtest 'Changes' => sub {
 };
 
 module_boilerplate_ok('bin/bamboo');
-module_boilerplate_ok('lib/App-Bamboo-Cli.pm');
+module_boilerplate_ok('lib/App::BambooCli.pm');
 done_testing();

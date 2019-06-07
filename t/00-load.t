@@ -6,8 +6,8 @@ use Test::More;
 use Test::Warnings;
 
 BEGIN {
-    use_ok( 'App-Bamboo-Cli' );
+    use_ok( 'App::BambooCli' );
 }
 
-diag( "Testing App-Bamboo-Cli $App-Bamboo-Cli::VERSION, Perl $], $^X" );
+diag( "Testing App::BambooCli $App::BambooCli::VERSION, Perl $], $^X" );
 done_testing();
