@@ -2,11 +2,16 @@ bin/bamboo
 Build.PL
 Changes
 lib/App/BambooCli.pm
+lib/App/BambooCli/Command.pm
+lib/App/BambooCli/Command/Plans.pm
+lib/App/BambooCli/Command/Project.pm
+lib/App/BambooCli/Command/Projects.pm
+lib/App/BambooCli/Config.pm
 LICENSE
 MANIFEST
 META.json
 META.yml
-README
+README.md
 t/00-load.t
 t/boilerplate.t
 t/critic.t
