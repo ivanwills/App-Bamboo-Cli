@@ -60,4 +60,9 @@ subtest 'Changes' => sub {
 
 module_boilerplate_ok('bin/bamboo');
 module_boilerplate_ok('lib/App/BambooCli.pm');
+module_boilerplate_ok('lib/App/BambooCli/Config.pm');
+module_boilerplate_ok('lib/App/BambooCli/Command.pm');
+module_boilerplate_ok('lib/App/BambooCli/Command/Plans.pm');
+module_boilerplate_ok('lib/App/BambooCli/Command/Project.pm');
+module_boilerplate_ok('lib/App/BambooCli/Command/Projects.pm');
 done_testing();
