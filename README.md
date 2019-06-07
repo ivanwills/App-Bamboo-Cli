@@ -5,16 +5,8 @@
 App-BambooCli
 =============
 
-The README is used to introduce the module and provide instructions on
-how to install the module, any machine dependencies it may have (for
-example C compilers and installed libraries) and any other information
-that should be provided before the module is installed.
-
-A README file is required for CPAN modules since CPAN extracts the README
-file from a module distribution so that people browsing the archive
-can use it to get an idea of the module's uses. It is usually a good idea
-to provide version information here so that people can decide whether
-fixes for the module are worth downloading.
+This module gives you a command `bamboo` that allows you to easliy interact
+with a bamboo server.
 
 INSTALLATION
 ============
