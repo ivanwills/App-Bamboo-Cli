@@ -42,14 +42,21 @@ This documentation refers to bamboo version 0.0.1
 =head1 SYNOPSIS
 
    bamboo [option]
+   bamboo projects [option]
+   bamboo project [option]
+   bamboo plans [option]
 
  OPTIONS:
-  -o --other         other option
+  -c --config key=value
+                Set config values e.g.
+                - hostname
+                - username
+                - password
 
-  -v --verbose       Show more detailed option
-     --version       Prints the version information
-     --help          Prints this help information
-     --man           Prints the full documentation for bamboo
+  -v --verbose  Show more detailed option
+     --version  Prints the version information
+     --help     Prints this help information
+     --man      Prints the full documentation for bamboo
 
 =head1 DESCRIPTION
 
