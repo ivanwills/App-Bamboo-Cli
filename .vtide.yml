@@ -27,9 +27,3 @@ terminals:
   2:
     edit:
       - base
-  3:
-    edit:
-      - projects
-  4: []
-
-  5: []
